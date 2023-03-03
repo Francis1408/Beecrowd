@@ -46,7 +46,7 @@ int main(){
 
   walls.push_back(walls_height);
 
-  for (int i = 0; i < num_titans; i++) {
+  for (int i = 0; i < num_titans; i++) { 
 
     condition = 1;
     distance = 0;
