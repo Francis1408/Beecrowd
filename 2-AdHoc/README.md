@@ -1,4 +1,4 @@
-Answers from beginners topic. The details of each question are linked below:
+Answers from AdHoc topic. The details of each question are linked below:
 
 | Questions | Status                              |
 |-----------|-----------------------------------------------------------------------------------------------:| 
