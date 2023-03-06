@@ -7,5 +7,4 @@ Answers from AdHoc topic. The details of each question are linked below:
 | [1387](https://www.beecrowd.com.br/judge/en/problems/view/1387)      | Solved :heavy_check_mark:           |
 | [1136](https://www.beecrowd.com.br/judge/en/problems/view/1136)      | Solved :heavy_check_mark:           |
 | [1171](https://www.beecrowd.com.br/judge/en/problems/view/1171)      | Solved :heavy_check_mark:           |
-| [1026](https://www.beecrowd.com.br/judge/en/problems/view/1026)      | Time limit exceeded :radio_button:        |
 
