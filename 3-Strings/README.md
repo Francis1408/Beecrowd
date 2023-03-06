@@ -1,10 +1,9 @@
-Answers from AdHoc topic. The details of each question are linked below:
+Answers from String topic. The details of each question are linked below:
 
 | Questions | Status                              |
 |-----------|-----------------------------------------------------------------------------------------------:| 
-| [1103](https://www.beecrowd.com.br/judge/en/problems/view/1103)      | Solved :heavy_check_mark:           |
-| [1329](https://www.beecrowd.com.br/judge/en/problems/view/1329)      | Solved :heavy_check_mark:           |
-| [1387](https://www.beecrowd.com.br/judge/en/problems/view/1387)      | Solved :heavy_check_mark:           |
-| [1136](https://www.beecrowd.com.br/judge/en/problems/view/1136)      | Solved :heavy_check_mark:           |
-| [1171](https://www.beecrowd.com.br/judge/en/problems/view/1171)      | Solved :heavy_check_mark:           |
+| [1024](https://www.beecrowd.com.br/judge/en/problems/view/1024)      | Solving          |
+| [1253](https://www.beecrowd.com.br/judge/en/problems/view/1253)      | Solved :heavy_check_mark:           |
+| [2591](https://www.beecrowd.com.br/judge/en/problems/view/2591)      | Solved :heavy_check_mark:           |
+
 

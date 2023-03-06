@@ -12,4 +12,4 @@ Answers from beginners topic. The details of each question are linked below:
 | [1973](https://www.beecrowd.com.br/judge/en/problems/view/1973)      | Time limit exceeded :radio_button:  |
 | [1040](https://www.beecrowd.com.br/judge/en/problems/view/1040)      | Solved :heavy_check_mark:           |
 | [1142](https://www.beecrowd.com.br/judge/en/problems/view/1142)      | Solved :heavy_check_mark:           |
-| [1827](https://www.beecrowd.com.br/judge/en/problems/view/1827)      | Wrong Answer :X:           |
+| [1827](https://www.beecrowd.com.br/judge/en/problems/view/1827)      | Wrong Answer(100%) :heavy_multiplication_x:          |
