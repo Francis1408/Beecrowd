@@ -5,3 +5,4 @@ My answers for every [Beecrowd](https://www.beecrowd.com.br/judge/en/profile/652
 #### 1- [Begginers](https://github.com/Francis1408/Beecrowd/tree/main/1-Beginners)
 #### 2- [AdHoc](https://github.com/Francis1408/Beecrowd/tree/main/2-AdHoc)
 #### 3- [Strings](https://github.com/Francis1408/Beecrowd/tree/main/3-Strings)
+#### 5- [Strings](https://github.com/Francis1408/Beecrowd/tree/main/5-Mathematics)
