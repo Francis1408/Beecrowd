@@ -1,44 +1,51 @@
 #include<iostream>
-#include<algorithm>
+#include <string.h>
 
 using namespace std;
 
 int main(){
 
     int rep;
-    string line;
+    char lines[10001];
     char aux;
+    int length;
 
     cin >> rep; 
-    getline(std::cin, line);   
+    cin.getline(lines, 0);
+      
 
     for(int i=0; i < rep; i++){
 
 
-        cout << line << endl;
+        std::cin.getline(lines, 10001);
+        length = strlen(lines);
 
-       /*
-       for(int i=0; i < line.size()/2; i++){
-            aux = line[i];
-            line[i] = line[line.size()-i];
-        }
-       */ 
-;
-        /*
-        for(int j=0; j < line.size(); j++){
-            if(line[j] >= 65 && line[j] <= 90 || line[j] <= 97 && line[j] >= 122)
-            line[j] += 3;
-        }
-        */
+         //cout << length << endl;
 
+        for(int j=0; j < length; j++){
+            if((int)lines[j] >= 65 && (int)lines[j] <= 90 || (int)lines[j] >= 97 && (int)lines[j] <= 122)
+            lines[j] += 3;
+        }
         
-       /*
-        for(int j=line.size()/2; j < line.size(); j++){
-            line[j] -= 1;
-        }
-       */
+        //cout << lines << endl;
 
-    getline(std::cin, line);
+        for(int j=length-1, k = 0; j >= length/2; j--, k++){
+            aux = lines[j];
+            lines[j] = lines[k];
+            lines[k] = aux; 
+        }
+
+        //cout << lines << endl;
+       
+        for(int j=length/2; j < length; j++){
+            lines[j] -= 1;
+        }
+
+
+        lines[length] = '\0';
+
+        cout << lines << endl;
+       
 
     }
 
