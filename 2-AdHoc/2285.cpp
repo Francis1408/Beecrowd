@@ -16,6 +16,10 @@ bool isPalindrome(string str, int i, int j) {
     return true;
 }
 
+
+
+/*
+
 int minimalCut(string str, int initial_pos, int size) {
 
     if( initial_pos >= size  || isPalindrome(str, initial_pos, size)) 
@@ -35,7 +39,7 @@ int minimalCut(string str, int initial_pos, int size) {
     return minCost;
 
 }
-
+*/
 
 
 int main () {
@@ -52,8 +56,32 @@ int main () {
         cout << "Teste " << counter << endl;
 
         cin >> chain;
-        result = minimalCut(chain, 0 ,length - 1);
-        cout << result + 1 << endl;
+        int palindromes[length][length]{0};
+
+        for(int i = 0; i < length; i++){
+            palindromes[i][i] = 1;
+        }
+
+        for(int i = 1; i < length; i++) {
+            for(int j = i-1; j >= 0; j--) {
+                // check if the substring is a palindrome
+                if(chain[i] == chain[j] && (j+1 > i-1) || palindromes[j+1][i-1]) {
+                    palindromes[i][j] = 1;
+
+                }
+            }
+
+        }
+
+        for(int i = 0; i < length; i++){
+            for(int j = 0; j < length; j++) {
+                cout << palindromes[i][j] << " "; 
+            }
+
+            cout << endl;
+        }
+        //result = minimalCut(chain, 0 ,length - 1);
+       // cout << result + 1 << endl;
         cin >> length;
         counter++;
 

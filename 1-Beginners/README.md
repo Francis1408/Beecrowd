@@ -13,5 +13,6 @@ Answers from beginners topic. The details of each question are linked below:
 | [1040](https://www.beecrowd.com.br/judge/en/problems/view/1040)      | Solved :heavy_check_mark:           |
 | [1142](https://www.beecrowd.com.br/judge/en/problems/view/1142)      | Solved :heavy_check_mark:           |
 | [1827](https://www.beecrowd.com.br/judge/en/problems/view/1827)      | Wrong Answer(100%) :heavy_multiplication_x:          |
-| [3065](https://www.beecrowd.com.br/judge/en/problems/view/3065)      | Solving        |
+| [3065](https://www.beecrowd.com.br/judge/en/problems/view/3065)      | Solved :heavy_check_mark:       |
+| [3068](https://www.beecrowd.com.br/judge/en/problems/view/3068)      | Solved :heavy_check_mark:       |
 
