@@ -1,88 +1,75 @@
 #include <iostream>
 #include <bits/stdc++.h>
 
+#define MAX_SIZE 5000
+
 using namespace std;
 
+char chain[MAX_SIZE + 1];
+char palindromes[MAX_SIZE][MAX_SIZE];
+int minimalCut[MAX_SIZE];
+int minimal;
+int length;
 
-
-bool isPalindrome(string str, int i, int j) {
-
-    while(i < j) {
-        if(str[i] != str[j]) return false;
-        i++;
-        j--;
-    }
-
-    return true;
-}
-
-
-
-/*
-
-int minimalCut(string str, int initial_pos, int size) {
-
-    if( initial_pos >= size  || isPalindrome(str, initial_pos, size)) 
-        return 0;
-
-    int minCost = INT_MAX;
-
-    // string temp = "";
-
-    for(int k = initial_pos; k < size; k++){
-
-        int cost = 1 + minimalCut(str, initial_pos , k) + minimalCut(str, k + 1, size);
-        minCost = min(cost, minCost);
-
-    }
-
-    return minCost;
-
-}
-*/
-
+// int palindromes[2002][2002] = { 0 };
 
 int main () {
 
-    int length;
-    string chain;
     int result;
     int counter = 1;
 
-    cin >> length;
+    scanf("%d", &length);
     
     while (length != 0){
 
-        cout << "Teste " << counter << endl;
+        printf("Teste %d\n", counter);
+        scanf("%s", chain);
+        
 
-        cin >> chain;
-        int palindromes[length][length]{0};
+        
+        for(int i = 0; i < length; i++) {
+           for(int j = 0; j < length; j++) {
+               palindromes[i][j] = 0;
+           }
+        }
 
         for(int i = 0; i < length; i++){
             palindromes[i][i] = 1;
         }
 
+
         for(int i = 1; i < length; i++) {
             for(int j = i-1; j >= 0; j--) {
                 // check if the substring is a palindrome
-                if(chain[i] == chain[j] && (j+1 > i-1) || palindromes[j+1][i-1]) {
-                    palindromes[i][j] = 1;
+                if(chain[i] == chain[j] && ((j+1 > i-1) || palindromes[j+1][i-1])) {
+                    palindromes[j][i] = 1;
 
                 }
             }
 
         }
 
-        for(int i = 0; i < length; i++){
-            for(int j = 0; j < length; j++) {
-                cout << palindromes[i][j] << " "; 
-            }
 
-            cout << endl;
+        for(int i = 0; i < length; i++){
+            if(palindromes[0][i]) {
+                minimalCut[i] = 1;
+                continue;
+            }
+            minimal = 0;
+            for(int j = 0; j < i; j++) {
+
+                if(palindromes[j+1][i] && (!minimal || minimalCut[j]  < minimal)) {
+                    minimal = minimalCut[j];
+                }
+                minimalCut[i] = minimal + 1; 
+            }
         }
+
+        printf("%d\n\n",minimalCut[length-1]);
+    
         //result = minimalCut(chain, 0 ,length - 1);
        // cout << result + 1 << endl;
-        cin >> length;
+        scanf("%d", &length);
         counter++;
 
     }
