@@ -7,3 +7,4 @@ My answers for every [Beecrowd](https://www.beecrowd.com.br/judge/en/profile/652
 #### 3- [Strings](https://github.com/Francis1408/Beecrowd/tree/main/3-Strings)
 #### 4- [DataStructres](https://github.com/Francis1408/Beecrowd/tree/main/4-DataStructures)
 #### 5- [Mathematics](https://github.com/Francis1408/Beecrowd/tree/main/5-Mathematics)
+#### 6- [Paradigms](https://github.com/Francis1408/Beecrowd/tree/main/6-Paradigms)
