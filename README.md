@@ -8,3 +8,4 @@ My answers for every [Beecrowd](https://www.beecrowd.com.br/judge/en/profile/652
 #### 4- [DataStructres](https://github.com/Francis1408/Beecrowd/tree/main/4-DataStructures)
 #### 5- [Mathematics](https://github.com/Francis1408/Beecrowd/tree/main/5-Mathematics)
 #### 6- [Paradigms](https://github.com/Francis1408/Beecrowd/tree/main/6-Paradigms)
+#### 8- [Geometry](https://github.com/Francis1408/Beecrowd/tree/main/8-Geometry)
