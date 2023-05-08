@@ -6,6 +6,8 @@ Answers from Graphs topic. The details of each question are linked below:
 | [1799](https://www.beecrowd.com.br/judge/en/problems/view/1799)      | Solved :heavy_check_mark:           |
 | [2404](https://www.beecrowd.com.br/judge/en/problems/view/2404)      | Solved :heavy_check_mark:           |
 | [1552](https://www.beecrowd.com.br/judge/en/problems/view/1552)      | Solved :heavy_check_mark:           |
+| [2854](https://www.beecrowd.com.br/judge/en/problems/view/2854)      | Solved :heavy_check_mark:           |
+| [1907](https://www.beecrowd.com.br/judge/en/problems/view/2854)      | Solving          |
 
 
 
