@@ -67,4 +67,6 @@ int main() {
 
     cout << familias << endl;
 
+    return 0;
+
 }
