@@ -14,4 +14,6 @@ Answers from AdHoc topic. The details of each question are linked below:
 | [2285](https://www.beecrowd.com.br/judge/en/problems/view/2285)      | Time limit exceeded   :radio_button:   |
 | [2449](https://www.beecrowd.com.br/judge/en/problems/view/2449)      | Solved   :heavy_check_mark:   |
 | [1714](https://www.beecrowd.com.br/judge/en/problems/view/1714)      | Solved   :heavy_check_mark:   |
+| [1936](https://www.beecrowd.com.br/judge/en/problems/view/1936)      | Solved   :heavy_check_mark:   |
+| [2832](https://www.beecrowd.com.br/judge/en/problems/view/2832)      | Solved   :heavy_check_mark:   |
 
