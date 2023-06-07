@@ -15,6 +15,7 @@ Answers from Mathematics topic. The details of each question are linked below:
 | [1754](https://www.beecrowd.com.br/judge/en/problems/view/1754)      | Solved :heavy_check_mark:           |
 | [2066](https://www.beecrowd.com.br/judge/en/problems/view/2066)      | Solved :heavy_check_mark:           |
 | [2180](https://www.beecrowd.com.br/judge/en/problems/view/2180)      | Solved :heavy_check_mark:           |
+| [1280](https://www.beecrowd.com.br/judge/en/problems/view/1280)      | Solved :heavy_check_mark:           |
 
 
 
