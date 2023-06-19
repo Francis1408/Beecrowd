@@ -15,6 +15,9 @@ Answers from Graphs topic. The details of each question are linked below:
 | [1152](https://www.beecrowd.com.br/judge/en/problems/view/1152)      | Solved :heavy_check_mark:           |
 | [1764](https://www.beecrowd.com.br/judge/en/problems/view/1764)      | Solved :heavy_check_mark:           |
 | [1774](https://www.beecrowd.com.br/judge/en/problems/view/1764)      | Solved :heavy_check_mark:           |
+| [1207](https://www.beecrowd.com.br/judge/en/problems/view/1207)      | Solved :heavy_check_mark:           |
+| [1344](https://www.beecrowd.com.br/judge/en/problems/view/1344)      | Solved :heavy_check_mark:           |
+| [2190](https://www.beecrowd.com.br/judge/en/problems/view/2190)      | Solved :heavy_check_mark:           |
 
 
 

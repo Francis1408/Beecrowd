@@ -17,5 +17,6 @@ Answers from beginners topic. The details of each question are linked below:
 | [3068](https://www.beecrowd.com.br/judge/en/problems/view/3068)      | Solved :heavy_check_mark:       |
 | [3343](https://www.beecrowd.com.br/judge/en/problems/view/3343)      | Solved :heavy_check_mark:       |
 | [2715](https://www.beecrowd.com.br/judge/en/problems/view/2715)      | Solved :heavy_check_mark:       |
-| [3089](https://www.beecrowd.com.br/judge/en/problems/view/3089)      | Solved :heavy_check_mark:  |
+| [3089](https://www.beecrowd.com.br/judge/en/problems/view/3089)      | Solved :heavy_check_mark:       |
+| [1164](https://www.beecrowd.com.br/judge/en/problems/view/1164)      | Solved :heavy_check_mark:       |
 
